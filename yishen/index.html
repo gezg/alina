@@ -1,20 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Ucberkeley Tech</title>
+	<title>PY Tech</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta charset="utf-8">
-	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="shortcut icon" href="favicon.ico?v=1" type="image/x-icon">
 
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap-responsive.css">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css?v=2">
 
 	<!--[if lt IE 9]>
       <script src="https://cdn.bootcss.com/html5shiv/3.7.0/html5shiv.min.js"></script>
     <![endif]-->
-
-
+    <script type="text/javascript" src="js/global-data.js"></script>
+    <script type="text/javascript" src="js/jquery1.42.min.js"></script>
+    <script type="text/javascript" src="js/jquery.SuperSlide.2.1.1.js"></script>
 </head>
 <body>
 	<header class="navbar">
@@ -41,15 +42,46 @@
 					<a href="./rfq.html">RFQ</a>
 				</li>
 			</ul>
-			<form class="navbar-search pull-right">
+			<div class="navbar-search pull-right">
 			 	<input type="text" class="search-query" placeholder="SEARCH">
 			 	<i class="search-btn sprite"></i>
-			</form>
+			 	<div class="navbar-search-result" id="navbar-search-result"></div>
+			</div>
 		</div>
 	</header>
 	<div class="clearfix">
-		<div class="slide" style="height: 650px;">
-			<img src="images/banner.jpg" style="height:650px;" width="100%">
+		<div id="slideBox" class="slide-box">
+			<div class="hd">
+				<ul><li></li><li></li><li></li></ul>
+			</div>
+			<div class="bd">
+				<ul>
+					<li>
+						<div class="slide-content">
+							<p class="title">Connecting The Glgabit <br/>Broapband Infrastructure</p>
+
+							<a href="./services.html"><button class="btn">Read more<i class="sprite"></i></button></a>
+						</div>
+						<img src="images/slide1.jpg" />
+					</li>
+					<li>
+						<div class="slide-content">
+							<p class="title">Connecting The Glgabit <br/>Broapband Infrastructure</p>
+
+							<a href="./services.html"><button class="btn">Read more<i class="sprite"></i></button></a>
+						</div>
+						<img src="images/banner.jpg" />
+					</li>
+					<li>
+						<div class="slide-content">
+							<p class="title">Connecting The Glgabit <br/>Broapband Infrastructure</p>
+
+							<a href="./services.html"><button class="btn">Read more<i class="sprite"></i></button></a>
+						</div>
+						<img src="images/slide1.jpg" />
+					</li>
+				</ul>
+			</div>
 		</div>
 
 		<div style="height: 300px;">
@@ -58,19 +90,16 @@
 					<div class="span4">
 						<div class="icons-container">
 							<div class="sprite icons"><p>Smart chip</p></div>
-							
 						</div>
 					</div>
 					<div class="span4">
 						<div class="icons-container">
 							<div class="sprite icons a3"><p>Smart chip</p></div>
-							
 						</div>
 					</div>
 					<div class="span4">
 						<div class="icons-container">
 							<div class="sprite icons a2"><p>Smart chip</p></div>
-
 						</div>
 					</div>
 				</div>
@@ -93,11 +122,13 @@
 							<i class="sprite"></i>
 							<p class="title">Worldwide Procurement</p>
 							<p class="sub">We have well established global network of suppliers and if the part requested is not available from our own stock we usually have located the parts within 24 hours through our extensive supplier database...</p>
+							<a href="./services.html">
 							<div class="b-btn">
 								<i class="left"></i>
 								Read more
 								<i class="right"></i>
 							</div>
+							</a>
 						</div> 
 					</div>
 					<div class="span6">
@@ -107,11 +138,13 @@
 							<p class="sub">
 								Manufactures and Corporations run in to the same dilemma as technology advances; what do with surplus, end-of-life and obsolete assets. We can provide best in class services to help our customers to solve the issue...
 							</p>
+							<a href="./services.html">
 							<div class="b-btn">
 								<i class="left"></i>
 								Read more
 								<i class="right"></i>
 							</div>
+							</a>
 						</div> 
 					</div>
 				</div>
@@ -129,47 +162,50 @@
 					 	</div>
 					</div>
 					<div class="dis-cell right clearfix">
-						<div class="list">
-							<div class="list-item">*****</div>
-							<div class="list-item">*****</div>
-							<div class="list-item">XC7K325T-2FFG900I</div>
-							<div class="list-item">M3062LFGPFP#U3C </div>
-							<div class="list-item">XC7VFX70T-2FFG1136I </div>
-							<div class="list-item">EP3C40F484I7N  </div>
-							<div class="list-item">XC6SLX16-2CSG225I</div>
-							<div class="list-item">XC7K325T-2FFG676I</div>
-							<div class="list-item">XC6SLX45-2FGG484C</div>
-							<div class="list-item">XC6SLX75-2CSG48</div>
-						</div>
-						<div class="list">
-							<div class="list-item">*****</div>
-							<div class="list-item">*****</div>
-							<div class="list-item">XC7K325T-2FFG900I</div>
-							<div class="list-item">M3062LFGPFP#U3C </div>
-							<div class="list-item">XC7VFX70T-2FFG1136I </div>
-							<div class="list-item">EP3C40F484I7N  </div>
-							<div class="list-item">XC6SLX16-2CSG225I</div>
-							<div class="list-item">XC7K325T-2FFG676I</div>
-							<div class="list-item">XC6SLX45-2FGG484C</div>
-							<div class="list-item">XC6SLX75-2CSG48</div>
-						</div>
-						<div class="list">
-							<div class="list-item">*****</div>
-							<div class="list-item">*****</div>
-							<div class="list-item">XC7K325T-2FFG900I</div>
-							<div class="list-item">M3062LFGPFP#U3C </div>
-							<div class="list-item">XC7VFX70T-2FFG1136I </div>
-							<div class="list-item">EP3C40F484I7N  </div>
-							<div class="list-item">XC6SLX16-2CSG225I</div>
-							<div class="list-item">XC7K325T-2FFG676I</div>
-							<div class="list-item">XC6SLX45-2FGG484C</div>
-							<div class="list-item">XC6SLX75-2CSG48</div>
+						<div class="list-container">
+							<div class="list">
+								<div class="list-item">*****</div>
+								<div class="list-item">*****</div>
+								<div class="list-item">XC7K325T-2FFG900I</div>
+								<div class="list-item">M3062LFGPFP#U3C </div>
+								<div class="list-item">XC7VFX70T-2FFG1136I </div>
+								<div class="list-item">EP3C40F484I7N  </div>
+								<div class="list-item">XC6SLX16-2CSG225I</div>
+								<div class="list-item">XC7K325T-2FFG676I</div>
+								<div class="list-item">XC6SLX45-2FGG484C</div>
+								<div class="list-item">XC6SLX75-2CSG48</div>
+							</div>
+							<div class="list">
+								<div class="list-item">*****</div>
+								<div class="list-item">*****</div>
+								<div class="list-item">XC7K325T-2FFG900I</div>
+								<div class="list-item">M3062LFGPFP#U3C </div>
+								<div class="list-item">XC7VFX70T-2FFG1136I </div>
+								<div class="list-item">EP3C40F484I7N  </div>
+								<div class="list-item">XC6SLX16-2CSG225I</div>
+								<div class="list-item">XC7K325T-2FFG676I</div>
+								<div class="list-item">XC6SLX45-2FGG484C</div>
+								<div class="list-item">XC6SLX75-2CSG48</div>
+							</div>
+							<div class="list">
+								<div class="list-item">*****</div>
+								<div class="list-item">*****</div>
+								<div class="list-item">XC7K325T-2FFG900I</div>
+								<div class="list-item">M3062LFGPFP#U3C </div>
+								<div class="list-item">XC7VFX70T-2FFG1136I </div>
+								<div class="list-item">EP3C40F484I7N  </div>
+								<div class="list-item">XC6SLX16-2CSG225I</div>
+								<div class="list-item">XC7K325T-2FFG676I</div>
+								<div class="list-item">XC6SLX45-2FGG484C</div>
+								<div class="list-item">XC6SLX75-2CSG48</div>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
+	<div id="clearfix"></div>
 	<footer class="footer clearfix">
 		<div class="container">
 			<p>PRODUCTS APPLICATIONS SUPPORT COMPANY HOW TO BUY</p>
@@ -177,5 +213,13 @@
 			<p>Cookies and Your Privacy Terms of Use Sitemap</p>
 		</div>
 	</footer>
+	<script type="text/javascript">
+		jQuery("#slideBox").slide({ 
+			mainCell:".bd ul", 
+			effect: 'left',
+			autoPlay: true,
+			mouseOverStop: false
+		});
+	</script>
 </body>
 </html>
