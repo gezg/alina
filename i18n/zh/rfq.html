@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>PY Tech</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8">
+	<link rel="shortcut icon" href="http://www.py-tech.com/public/favicon.ico?v=2" type="image/x-icon">
+
+	<link rel="stylesheet" type="text/css" href="http://www.py-tech.com/public/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="http://www.py-tech.com/public/css/bootstrap-responsive.css">
+	<link rel="stylesheet" type="text/css" href="http://www.py-tech.com/public/css/style.css">
+
+	<!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.0/html5shiv.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+	<header class="navbar">
+		<div class="container psr">
+			<div class="zhanw"></div>
+			<h4 class="logo"></h4>
+			<ul class="nav">
+				<li >
+					<a href="./index.html">Home</a>
+				</li>
+				<li>
+					<a href="./about.html">About</a>
+				</li>
+				<li>
+					<a href="./services.html" >Services</a>
+				</li>
+				<li>
+					<a href="./line.html">Line Card</a>
+				</li>
+				<li>
+					<a href="./clients.html">Clients</a>
+				</li>
+				<li class="selected">
+					<a href="./">RFQ</a>
+				</li>
+			</ul>
+			<div class="navbar-search pull-right">
+			 	<input type="text" class="search-query" placeholder="SEARCH">
+			 	<i class="search-btn sprite"></i>
+			 	<div class="navbar-search-result" id="navbar-search-result"></div>
+			</div>
+		</div>
+	</header>
+	<div class="clearfix">
+		<hr>
+		<div class="container about">
+			<div class="dis clearfix rfq" style="margin-top: 80px;">
+					<div class="dis-cell left ">
+					 	<h2 class="theme" style="margin:0;margin-bottom: 30px;">Free purchase</h2>
+					 	<p class="title">The warranty period of all parts for 12 months
+    Net payment (applicable) Terms and conditions)</p>
+    					<div class="row-fluid" style="margin-top: 50px;">
+    						<div class="span6">
+    							<img src="http://nebula.wsimg.com/934a07dfeff224c9149bcce2d9b2f945?AccessKeyId=A8F2B292828AFD2F5F4D&disposition=0&alloworigin=1">
+    						</div>
+    						<div class="span6">
+    							<img style="margin-top: 5px;" src="http://nebula.wsimg.com/8fe8261c7d1f957614da66910d380668?AccessKeyId=A8F2B292828AFD2F5F4D&disposition=0&alloworigin=1">
+    						</div>
+    					</div>
+					</div>
+					<div class="dis-cell right clearfix">
+						<form class="form-horizontal" onsubmit="function(){}" id="signupForm">
+						 	<table class="table form-table">
+						 		<tr>
+						 			<td style="width: 25%;">Name<span>*</span></td>
+						 			<td>
+						 				<input type="text" name="Name" placeholder="Enter name">
+						 			</td>
+						 		</tr>
+						 		<tr>
+						 			<td>Company</td>
+						 			<td>
+						 				<input type="text" name="Company" placeholder="Enter company name here">
+						 			</td>
+						 		</tr>
+						 		<tr>
+						 			<td>Phone</td>
+						 			<td>
+						 				<input type="text" name="Phone" placeholder="Enter contact number here">
+						 			</td>
+						 		</tr>
+						 		<tr>
+						 			<td>Email<span>*</span></td>
+						 			<td>
+						 				<input type="text" name="Email" placeholder="Enter email address">
+						 			</td>
+						 		</tr>
+						 		<tr>
+						 			<td>Part Number<span>*</span></td>
+						 			<td>
+						 				<input type="text" name="Part Number" placeholder="Enter P/N here">
+						 			</td>
+						 		</tr>
+						 		<tr>
+						 			<td>Qty<span>*</span></td>
+						 			<td>
+						 				<input type="text" name="Qty" placeholder="Enter Qty here">
+						 			</td>
+						 		</tr>
+						 		<tr>
+						 			<td>Choose <span>*</span></td>
+						 			<td>
+						 				<select name="Choose">
+						 					<option value="RFQ">RFQ</option>
+						 					<option value="Excess Service">Excess Service</option>
+						 					<option value="General Enquiry">General Enquiry</option>
+						 				</select>
+						 			</td>
+						 		</tr>
+						 		<tr>
+						 			<td>Type <span>*</span></td>
+						 			<td>
+						 				<select name="Type">
+						 					<option value="OEM">OEM</option>
+						 					<option value="CM">CM</option>
+						 					<option value="Distributor">Distributor</option>
+						 					<option value="Researcher">Researcher </option>
+						 					<option value="Others">Others </option>
+						 				</select>
+						 			</td>
+						 		</tr>
+						 		<tr>
+						 			<td>Target Price</td>
+						 			<td>
+						 				<input type="text" name="Target Price" placeholder="Enter target unit price">
+						 			</td>
+						 		</tr>
+						 		<tr>
+						 			<td>Delivery Terms</td>
+						 			<td>
+						 				<select name="Delivery Terms">
+						 					<option value="Stock only (delivery within 1 week)">Stock only (delivery within 1 week) </option>
+						 					<option value="Lead Time Buy (Schedule a delivery date)">Lead Time Buy (Schedule a delivery date) </option>
+						 					<option value="Both Acceptable">Both Acceptable </option>
+						 				</select>
+						 			</td>
+						 		</tr>
+						 		<tr>
+						 			<td>Message details</td>
+						 			<td>
+						 				<textarea name="Message details" style="height: 200px;"></textarea>
+						 			</td>
+						 		</tr>
+						 		<tr>
+						 			<td></td>
+						 			<td>
+						 				<button class="btn btn-large btn-danger" id="submit" style="width:200px;" type="button">Submit</button>
+						 			</td>
+						 		</tr>
+						 	</table>
+						</form>
+					</div>
+				</div>
+		</div>
+	</div>
+	<div id="clearfix"></div>
+	<script type="text/javascript" src="http://www.py-tech.com/public/js/global-data.js"></script>
+    <script type="text/javascript" src="http://www.py-tech.com/public/js/jquery1.42.min.js"></script>
+	<script type="text/javascript" src="http://www.py-tech.com/public/js/json2.js"></script>
+	<script type="text/javascript" src="http://www.py-tech.com/public/js/jquery.validate.min.js"></script>
+	<script type="text/javascript">
+
+		var type = {
+			'Name'   : 'input',
+			'Company': 'input',
+			'Phone'  : 'input',
+			'Email'  : 'email',
+			'Part Number': 'phone',
+			'Qty'    : 'phone',
+			'Message details': 'paragraph',
+			'Target Price': 'input',
+
+		}
+		var dataKey = {
+		    "domainName": "py-technology.com",
+		    "resellerId": 1,
+		    "elementId": "7000f569-ac95-445e-8ab8-5608790218d9",
+		    "subject": "py-technology.com RFQ: Form Submission",
+		    "emailHashList": "sales@py-tech.com",
+		    "formFields": [],
+		    "hostPageUrl": "http://www.py-technology.com"
+		}
+		function signup(){
+			var formData = $("#signupForm").serializeArray();
+			$.each(formData ,function(index,item){
+				if(type[item.name]){
+					item.type = type[item.name];
+				}
+				item.label = item.name;
+				delete item.name;
+			});
+			dataKey.formFields = formData;
+
+			$.ajax({
+				type: 'POST',
+				data: JSON.stringify(dataKey),
+				url: 'https://sitesupport-v7.websitetonight.com/api/CustomFormMailer/Submit',
+				success: function(a,b,c){
+					//console.log(a,b,c)
+				}
+			});
+		}
+
+		$(document).ready(function(){
+			$("#signupForm").validate({
+			    rules: {
+					Name: {
+						required: true
+					},
+					Email: {
+						required: true,
+						email: true
+					},
+					'Part Number': {
+						required: true,
+						number: true
+					},
+					Qty: {
+						required: true
+					},
+					email: {
+						required: true,
+						email: true
+					},
+					Choose: {
+						required: true
+					},
+					Type: {
+						required: true
+					}
+			    }
+			 });
+
+			$('#submit').click(function(){
+				$("#signupForm").valid() && signup();
+			});
+		
+		});
+	</script>
+</body>
+</html>
