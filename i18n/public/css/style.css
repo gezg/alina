@@ -3,8 +3,9 @@ body{
 }
 
 .zhanw{
-	height: 100px;
+	height: 40px;
 }
+
 .logo{
 	position: absolute;
 	bottom: -20px;
@@ -511,4 +512,66 @@ label.error{
 .jobs dd, .jobs dt{
 	font-size: 14px;
 	color: #555;
+}
+
+.rfq dt, .rfq dd{
+	display: inline-block;
+}
+dl.rfq{
+	margin: 0;
+}
+.rfq dt{
+	width: 140px;
+	text-align: right;
+}
+.zh-rfq .theme{
+	font-size: 20px;
+	margin-top: 10px;
+    margin-bottom: 0;
+}
+
+@media screen and (max-height: 768px){
+	.slide-box .bd img{
+		height: 450px;
+	}
+	.poto{
+		height: 360px;
+	}
+	.slide-box {
+	    height: 455px;
+	}
+	.slide-content .title{
+		margin-bottom: 100px;
+		margin-top: 50px;
+	}
+}
+
+.zh-c-title{
+	margin-top: 30px;
+	color: #bf272c;
+	font-weight: normal;
+
+	border-bottom: 1px solid #bf272c;
+}
+
+.greatest{
+	width: 100%;
+	table-layout: fixed;
+}
+
+.greatest td{
+	vertical-align: middle;
+	text-align: center;
+}
+
+.greatest.ohter td img{
+	height: 100px;
+}
+
+.greatest.ohter td+td{
+	text-align: left;
+	font-size: 20px;
+}
+.affg a{
+	text-decoration: none;
 }
